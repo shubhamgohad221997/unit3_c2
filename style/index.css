@@ -1,0 +1,42 @@
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+#menu>div>img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
+
+#menu>div>p{
+    text-align: center;
+}
+#menu>div>button{
+    display: block;
+    margin: auto;
+}
+
+#menu>div{
+    border: 1px solid gray;
+    width: 90%;
+    padding: 10px;
+    line-height: 40px;
+}
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 10px;
+    padding: 10px;
+}
+a{
+    color: black;
+    
+}

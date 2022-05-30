@@ -1,0 +1,8 @@
+#order-form{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30%;
+    padding: 30%;
+}
